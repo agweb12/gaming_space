@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Space</title>
+    <meta name="description" content="Gaming Space avec les grid et un menu en 3D">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gaming">Gaming</a></li>
+            <li><a href="#street">Street</a></li>
+            <li><a href="#footing">Footing</a></li>
+        </ul>
+        <button>Obtenir un devis</button>
+        <img class="logo" src="./assets/img/burger.svg" alt="">
+    </nav>
+    <div class="perspective effect-rotate-left">
+        <div class="container1"  href="#intro">
+            <div class="outer-nav-return1"></div>
+            <div class="intro" id="intro">
+                <div class="title">
+                    <h1>Introduction</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum tenetur temporibus.</p>
+                </div>
+                <div class="carousel">
+                    <div class="box-carousel">
+                        <img src="./assets/img/slider-img.png" alt="">
+                        <div class="col-box">
+                            <h3>Portfolio 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, mollitia? Aliquam optio
+                                labore dolores fuga voluptates libero repellat soluta ratione!</p>
+                            <button>Contactez-nous</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container2">
+            <div class="outer-nav-return2"></div>
+            <div class="services" id="services">
+                <div class="title">
+                    <h2>Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum tenetur temporibus.</p>
+                </div>
+
+                <div class="services-box">
+                    <div class="box">
+                        <img src="./assets/img/s1.png" alt="">
+                        <h3>Link Building</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/s2.png" alt="">
+                        <h3>On Page SEO</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/s3.png" alt="">
+                        <h3>Online Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/s4.png" alt="">
+                        <h3>Email Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+                <button>View More</button>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="outer-nav-return3"></div>
+            <div class="gaming" id="gaming">
+                <div class="gaming-box">
+                    <div class="gaming-col">
+                        <h2>Gaming</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+                            sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                            generators on the Internet tend to repeat predefined chunks as necessary, making this the
+                            first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
+                            with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                    <img src="./assets/img/about-img.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="container4">
+            <div class="outer-nav-return4"></div>
+            <div class="street" id="street">
+                <div class="title">
+                    <h2>Our Case Studies</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum tenetur temporibus.</p>
+                </div>
+                <div class="street-row">
+                    <div class="street-col">
+                        <img src="./assets/img/case-1.jpg" alt="">
+                        <div class="mini-box">
+                            <h3>Case Study 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="street-col">
+                        <img src="./assets/img/case-2.jpg" alt="">
+                        <div class="mini-box">
+                            <h3>Case Study 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container5">
+            <div class="outer-nav-return5"></div>
+            <div class="footing" id="footing">
+                <div class="title">
+                    <h2>Request a call back</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum tenetur temporibus.</p>
+                </div>
+                <div class="footing-row">
+                    <form action="" method="post">
+                        <input type="text" placeholder="Nom Complet" name="nom" id="nom" required>
+                        <input type="email" name="adressemail" id="adressemail" required placeholder="Votre email">
+                        <input type="tel" name="telephone" id="telephone" required
+                            placeholder="Entrez votre numéro de téléphone">
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Votre message"></textarea>
+                    </form>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=paris 17&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                                href="https://embed-googlemap.com">embed google map</a></div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_iframe {
+                                height: 400px !important;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
