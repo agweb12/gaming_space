@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    color-scheme: dark light;
+    color-scheme: light dark;
 
     --bgprimary: linear-gradient(90deg, rgb(245, 249, 1) 0%, rgb(228, 194, 0) 50%, rgb(255, 157, 0) 100%);
     --bgbutton: light-dark(rgb(18, 18, 18), rgb(252, 255, 56));
@@ -60,6 +60,7 @@ button {
     font-weight: 700;
     padding: .5rem 1rem;
     border-radius: .3rem;
+    cursor: pointer;
 }
 
 input[type=text],
@@ -160,7 +161,7 @@ nav {
         width: 50px;
         height: auto;
         cursor: pointer;
-        background-color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));
+        background-color: light-dark(rgb(0, 0, 0), none);
     }
 }
 
@@ -361,17 +362,18 @@ nav {
             gap: 1rem;
             z-index: 10;
             box-shadow: 0px 0px 12px light-dark(rgb(0, 0, 0, 0.262), rgba(255, 221, 0, 0.262));
-            ;
+            background-color: var(--bgsecondary);
             padding: 2rem;
             overflow: hidden;
             border-radius: 4rem 1rem 4rem 1rem;
             transition: .3s ease-in-out;
 
             &:hover {
-                box-shadow: 12px 12px 0px light-dark(rgb(0, 0, 0, 0.262), rgba(255, 221, 0, 0.262));
+                box-shadow: 12px 12px 0px light-dark(rgb(0, 0, 0), rgba(255, 221, 0, 0.262));
 
                 img {
                     background-color: light-dark(rgba(0, 0, 0, 0), rgb(255, 255, 255));
+                    padding: .5rem;
                 }
 
                 h3,
@@ -388,7 +390,7 @@ nav {
             img {
                 width: 4rem;
                 height: auto;
-                background-color: light-dark(rgba(0, 0, 0, 0), rgb(255, 255, 255));
+                background-color: light-dark(rgba(0, 0, 0, 0), rgb(255, 255, 56));
                 border-radius: 50%;
                 padding: 1rem;
                 transition: all .3s ease-in-out;
